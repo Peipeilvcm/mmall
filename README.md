@@ -39,6 +39,17 @@ resources下 logback
 7. 用户接口设计
 每一个功能一个接口，
 先UserController，再IUserService接口再接口实现，然后dao层UserMapper，编辑UserMapper.xml
+#### 分类管理模块开发
+设计封装无限层级的树状数据结构
+递归算法，处理复杂对象重排
+重写hashcode和equals
+1. 获取品类子节点（平级）
+2. 增加节点品类
+3. 修改品类名字
+4. 获取当前分类id及递归子节点分类id
+#### 商品管理
+1. FTP服务
+2. SpringMVC文件上传
 
 ### some errors
 1. mysql-connector使用5.1.37，使用8+会只生成insert
